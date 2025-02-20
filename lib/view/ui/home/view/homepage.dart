@@ -108,7 +108,7 @@ class _HomeScreeState extends State<HomeScree> {
       ),
       floatingActionButton: FloatingActionButton(onPressed: () async{
         await TaskAdd(context,false);
-      },child: Icon(Icons.add,),),
+      },child: Icon(Icons.add,),backgroundColor: ColorResources.amber,),
     );
   }
 
